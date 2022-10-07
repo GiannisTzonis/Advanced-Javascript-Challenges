@@ -31,4 +31,8 @@ function nine(func)   { return func ? func(9) : 9; };
 function plus( b )      { return function( a ) { return a + b; }; };
 function minus( b )     { return function( a ) { return a - b; }; };
 function times( b )     { return function( a ) { return a * b; }; };
+<<<<<<< HEAD
 function dividedBy( b ) { return function( a ) { return Math.floor( a / b ); }; };
+=======
+function dividedBy( b ) { return function( a ) { return Math.floor( a / b ); }; };
+>>>>>>> b3bc0ec9057380d6229d25b56ac877e9cdb764d2
